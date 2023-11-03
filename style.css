@@ -116,12 +116,6 @@ p {
 
   }
 
-  img {
-    overflow: hidden;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-  }
-
 button {
   width: 100%;
   border-radius: 0.5em;
@@ -158,6 +152,7 @@ a {
  box-shadow: 0 5px 20px rgba(31, 46, 87,0.3);
  max-width: 20em;
  padding: 0;
+ overflow:hidden;
 } 
 
 .content-container {
