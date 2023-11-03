@@ -4,6 +4,10 @@
     --color-primary-pale-blue: hsl(225, 100%, 94%);
     --color-primary-bright-blue: hsl(245, 75%, 52%);
 
+    --color-background-dark: #D6E1FF;
+    --color-background-light: #E0E8FF;
+    --color-background-plan: #E0E8FF;
+
     --color-neutral-light-blue:hsl(225, 100%, 98%);
     --color-neutral-desaturated-blue: hsl(224, 23%, 55%);
     --color-neutral-dark-blue: hsl(223, 47%, 23%);
@@ -56,7 +60,7 @@
     justify-content: center;
     align-items: center;
     padding: 1em;
-    background-color: var(--color-neutral-desaturated-blue);
+    background-color: var(--color-background-light);
   }
   
   /* A elements that don't have a class get default styles */
@@ -112,6 +116,8 @@ p {
 
   img {
     overflow: hidden;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
   }
 
 button {
@@ -145,8 +151,8 @@ a {
 
 
 .card-container {
- background-color: var(--color-neutral-light-blue);
- border-radius: 20px;
+ background-color: white;
+ border-radius: 1em;
  box-shadow: 0 5px 20px rgba(31, 46, 87,0.3);
  max-width: 20em;
  padding: 0;
@@ -178,7 +184,7 @@ a {
   margin-top: 1em;
   justify-content: space-between;
   align-items: center;
-  background-color: hsla(224, 100%, 96%, 0.5);
+  background-color: var(--color-neutral-light-blue);
   border-radius: 1em;
  
   width: 100%;
@@ -190,10 +196,10 @@ a {
 /*--- Hover states ----*/
 
 a:hover {
-  color: var(--color-neutral-desaturated-blue);
+  color: #766CF1;
 }
 .primary-button:hover {
-  background-color: var(--color-neutral-desaturated-blue);
+  background-color: #766CF1;
 }
 
 
